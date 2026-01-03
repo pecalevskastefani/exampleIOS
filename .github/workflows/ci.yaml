@@ -17,9 +17,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Run Tests on iPhone 16 Simulator (iOS 18.4)
+    - name: Run Tests on iPhone 17 Simulator (iOS 26.0.1)
       run: |
         xcodebuild test \
           -scheme 'exampleIOS' \
-          -destination 'platform=iOS Simulator,name=iPhone 16,OS=18.4'
+          -destination 'platform=iOS Simulator,name=iPhone 17,OS=26.0.1'
 
