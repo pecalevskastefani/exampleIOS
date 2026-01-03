@@ -40,11 +40,6 @@
 			path = exampleIOSTests;
 			sourceTree = "<group>";
 		};
-		652FC3BE2E9C03A900805C75 /* exampleIOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = exampleIOSUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				652FC3A62E9C03A500805C75 /* exampleIOS */,
 				652FC3B42E9C03A900805C75 /* exampleIOSTests */,
-				652FC3BE2E9C03A900805C75 /* exampleIOSUITests */,
 				652FC3A52E9C03A500805C75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				652FC3BD2E9C03A900805C75 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				652FC3BE2E9C03A900805C75 /* exampleIOSUITests */,
 			);
 			name = exampleIOSUITests;
 			packageProductDependencies = (
